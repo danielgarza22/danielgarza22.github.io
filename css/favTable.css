@@ -1,0 +1,29 @@
+.favTable caption{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: blue;  
+}
+
+.favTable th{
+    /* Top, Bottom, Left, Right */
+    padding: 10pt 10pt 5pt 5pt;
+    text-align: center;
+}
+
+.favTable td{
+    padding: 10pt;
+}
+
+.favTable tr:nth-child(even){
+    background-color: lavender;
+}
+
+.favTable tr:nth-child(odd){
+    background-color: lavenderblush;
+}
+
+.favTable tr:hover{
+    background-color: orchid;
+    font-weight: bold;
+}
